@@ -1,73 +1,73 @@
 # Ujian-Akhir-Semester-2A-Bisnis-Digital
 
-Selamat datang di Sistem Toko Baju Online GOFLI! Panduan ini akan membantu Anda memahami cara menggunakan program kami untuk melihat produk, menambahkan item ke keranjang, melihat isi keranjang, dan melakukan checkout.
+Program ini adalah simulasi toko baju online bernama GOFLI, yang bisa kamu jalankan langsung dari komputer/laptop. Kamu bisa:
+-Melihat daftar baju yang dijual
+-Mencari produk
+-Menambah produk ke keranjang
+-Menghapus produk dari keranjang
+-Melihat total belanja
+-Melakukan pembayaran (checkout)
 
-1. Memulai Program
-Saat Anda menjalankan program, Anda akan langsung disajikan dengan Menu Utama:
-
-Selamat Datang di Toko Baju Online!
------------------------------------
+Saat program dijalankan, kamu akan melihat tampilan seperti ini:
+===== Toko Baju Online GOFLI =====
 1. Lihat Daftar Produk
-2. Tambah ke Keranjang
-3. Lihat Keranjang Belanja
-4. Checkout
-5. Keluar
-Anda dapat memilih opsi dengan memasukkan angka yang sesuai (1 sampai 5) dan menekan Enter.
+2. Cari Produk
+3. Tambah ke Keranjang
+4. Lihat Keranjang
+5. Hapus dari Keranjang
+6. Checkout
+7. Keluar
+Kamu cukup memasukkan angka 1–7 untuk memilih apa yang ingin dilakukan.
 
-2. Fitur-fitur Utama
-Lihat Daftar Produk (Pilihan 1)
-Tujuan: Menampilkan semua produk yang tersedia di toko, beserta harga dan jumlah stoknya.
-
-Cara Menggunakan:
-
-Dari Menu Utama, masukkan angka 1.
-
-Tekan Enter.
-
-Hasil: Program akan menampilkan daftar produk seperti ini:
-
---- Daftar Produk ---
+Pilih 2 (CARI PRODUK) lalu ketik nama produk yang kamu cari (misalnya Kaos):
+Masukkan nama/kata kunci produk: Kaos
+Lalu Program akan menampilkan produk yang cocok:
 - Kaos Polos: Rp50000 (Stok: 10)
-- Kemeja Flanel: Rp120000 (Stok: 5)
-- Jaket Denim: Rp250000 (Stok: 3)
-- Celana Jeans: Rp180000 (Stok: 8)
----------------------
-Tambah ke Keranjang (Pilihan 2)
-Tujuan: Menambahkan produk yang Anda inginkan ke keranjang belanja.
-Cara Menggunakan:
-Dari Menu Utama, masukkan angka 2. Tekan Enter.
 
-Program akan meminta Anda untuk memasukkan nama produk yang ingin dibeli (misal: Kaos Polos). Pastikan ejaannya benar dan sesuai dengan daftar produk. Tekan Enter. Kemudian, masukkan jumlah produk yang ingin Anda beli. Tekan Enter.
-Lihat Keranjang Belanja (Pilihan 3)
-Tujuan: Melihat daftar produk yang sudah Anda tambahkan ke keranjang belanja dan total harga sementara.
-Cara Menggunakan:
-Dari Menu Utama, masukkan angka 3.Tekan Enter.
---- Keranjang Belanja Anda ---
+Pilih 3 (TAMBAH KE KERANJANG) lalu:
+Ketik nama produk (misalnya Kaos Polos)
+Masukkan jumlah yang ingin dibeli (misalnya 2)
+Program akan mengonfirmasi bahwa produk berhasil ditambahkan ke keranjang.
 
-- Kaos Polos (2x): Rp100000
-- Celana Jeans (1x): Rp180000
-------------------------------
-Total Belanja: Rp280000
-------------------------------
+Pilih 4 (LIHAT KERANJANG) maka akan ditampilkan semua barang yang sudah kamu masukkan, beserta total harga dan diskon jika berlaku.
+Contoh tampilan:
+ - Kaos Polos (2x): Rp100000
+- Celana Jeans (3x): Rp540000
+🎁 Diskon 10%: -Rp64000
+Total Belanja: Rp576000
+Program memberi diskon otomatis 10% jika total belanja lebih dari Rp500.000.
 
-Checkout (Pilihan 4)
-Tujuan: Menyelesaikan proses belanja dan "membayar" pesanan Anda.
-Cara Menggunakan:
-Dari Menu Utama, masukkan angka 4. Tekan Enter.
-Jika keranjang Anda kosong, Anda akan melihat pesan: ❌ Keranjang Anda kosong. Tidak bisa melakukan checkout.
-Jika keranjang berisi produk, program akan menampilkan ringkasan keranjang Anda dan meminta konfirmasi: Apakah Anda yakin ingin melakukan pembayaran? (ya/tidak): 
-Ketik ya dan tekan Enter untuk melanjutkan pembayaran. 
-Ketik tidak dan tekan Enter untuk membatalkan checkout.
+Pilih 5 (HAPUS DARI KERANJANG) lalu:
+Masukkan nama produk yang ingin dihapus (misalnya Kaos Polos)
+Masukkan jumlah yang ingin dihapus (misalnya 1)
+Jika kamu hapus semua, produk akan hilang dari keranjang dan stok akan dikembalikan ke produk.
 
-Jika Anda mengkonfirmasi (ya):
-🎉 Pembayaran berhasil!
-Pesanan Anda akan segera diproses. Terima kasih telah berbelanja!
-Keranjang belanja Anda akan dikosongkan setelah ini.
+Pilih 6 (CHECKOUT/PEMBAYARAN) lalu konfirmasi dengan mengetik ya jika kamu ingin bayar:
 
-Jika Anda membatalkan (tidak): Checkout dibatalkan.
+Lanjut ke pembayaran? (ya/tidak): ya
+Setelah itu, kamu akan mendapat pesan:
 
-Keluar (Pilihan 5)
-Tujuan: Mengakhiri program.
-Cara Menggunakan:
-Dari Menu Utama, masukkan angka 5. Tekan Enter.
-Hasil: Anda akan melihat pesan: Terima kasih telah berbelanja. Sampai jumpa! dan program akan berhenti.
+🎉 Pembayaran berhasil! Terima kasih telah berbelanja.
+
+Pilih 7 (KELUAR PROGRAM) untuk keluar:
+
+👋 Terima kasih! Sampai jumpa.
+
+✅ KEUNGGULAN PROGRAM INI UNTUK PENGGUNA
+Mudah digunakan, cukup pilih angka 1–7
+Realistis seperti toko online sungguhan
+Diskon otomatis untuk belanja besar
+Stok diperbarui otomatis saat membeli/menghapus
+
+
+
+
+
+
+
+
+
+
+
+
+
